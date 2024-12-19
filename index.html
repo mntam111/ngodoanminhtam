@@ -76,17 +76,11 @@
             height: auto;
             max-width: 100%;
         }
-       .image-container {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;  /* Căn giữa ảnh trong container */
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
+        img {
+            width: 100%;         /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của phần tử chứa */
+            height: auto;        /* Giữ tỷ lệ của ảnh */
+            max-width: 100%;     /* Đảm bảo ảnh không vượt quá chiều rộng của phần tử chứa */
+        }
     </style>
 </head>
 <body>
